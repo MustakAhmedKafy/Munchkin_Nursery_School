@@ -1,0 +1,189 @@
+/* xxl */
+
+@media (min-width: 1600px) {
+  .values {
+    padding: 350px 0px;
+  }
+  .feedback .card-bg {
+    padding: 45px 20px 30px 70px;
+  }
+}
+
+/* xl and xxl */
+@media (min-width: 992px) and (max-width: 1399px) {
+  .banner .banner-img {
+    width: 100% !important;
+  }
+
+ 
+  .feedback .main-card .card-circle {
+    height: 40px;
+    width: 40px;
+  }
+  .feedback .main-card .card-icon {
+    height: 34px;
+    width: 35px;
+  }
+  .feedback .main-card .card-icon .fa-user {
+    font-size: 20px;
+  }
+  .feedback .designation-area h3 {
+    font-size: 18px;
+  }
+  .feedback .designation-area .designation-name {
+    font-size: 12px;
+  }
+  .feedback .main-card .card-bg .designation-area ul li {
+    font-size: 12px;
+  }
+  .feedback .main-card .card-bg .designation-area .designation-name::before {
+    top: 51px;
+  }
+
+  .feedback .main-card .card-bg .designation-area .designation-name::after {
+    top: 52px;
+  }
+  .feedback .description {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .banner .banner-img {
+    width: 470px !important;
+  }
+}
+
+/* xl */
+@media (min-width: 992px) {
+  .display-1 {
+    font-size: 7rem;
+  }
+  .display-2 {
+    font-size: 5rem;
+  }
+  .our-class .row {
+    --bs-gutter-x: 4.5rem;
+  }
+  .values {
+    padding: 200px 0px;
+  }
+}
+
+/* tab device start*/
+/* tab device start*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner .w-100 {
+    width: 75%;
+  }
+  .hero_img .banner .avatars {
+    justify-content: center;
+  }
+  /* service */
+  .service ul li {
+    font-size: 18px;
+  }
+  .service p {
+    line-height: 1.7;
+  }
+
+  /* values */
+  .values {
+    padding: 60px 0px 30px 0px;
+  }
+
+  /* .container {
+    max-width: 700px;
+  } */
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .container,
+  .container-sm {
+    max-width: 700px;
+  }
+}
+
+/* tab device end*/
+/* tab device end*/
+
+/* mobile device start*/
+/* mobile device start*/
+@media (max-width: 768px) {
+  .hero_img .banner .avatars {
+    justify-content: center;
+  }
+  .service p {
+    line-height: 1.8;
+  }
+  .service ul {
+    padding-left: 0px;
+  }
+  .service ul li {
+    padding-bottom: 13px;
+  }
+
+  .values {
+    padding: 60px 0px 30px 0px;
+  }
+  .values ul li {
+    font-size: 20px;
+  }
+  .values ul li img {
+    width: 20px;
+  }
+  .page-banner img{
+    height: 250px;
+  }
+}
+
+/* tab device end*/
+/* tab device end*/
+
+/* mobile and tab */
+
+@media (max-width: 991.98px) {
+  .feedback .card-bg {
+    background-color: #fff;
+  }
+
+  .feedback .main-card .card-bg {
+    height: 145px;
+    padding: 15px 20px 30px 70px;
+  }
+  .feedback .main-card .card-circle {
+    height: 50px;
+    width: 50px;
+    left: 10px;
+    top: 33%;
+  }
+  .feedback .main-card .card-icon {
+    height: 42px;
+    width: 42px;
+  }
+  .feedback .main-card .card-icon .fa-user {
+    font-size: 20px;
+  }
+  .feedback .designation-area h3 {
+    font-size: 18px;
+  }
+  .feedback .designation-area .designation-name {
+    font-size: 12px;
+  }
+  .feedback .main-card .card-bg .designation-area ul li {
+    font-size: 12px;
+  }
+  .feedback .main-card .card-bg .designation-area .designation-name::before {
+    top: 51px;
+  }
+
+  .feedback .main-card .card-bg .designation-area .designation-name::after {
+    top: 52px;
+  }
+  .feedback .description {
+    font-size: 11px;
+  }
+  .admission{
+      margin-bottom: -30px;
+  }
+}

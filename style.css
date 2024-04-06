@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero_img {
+  background: rgba(0, 0, 0, 0) url(assets/img/Header_Bg.png) repeat scroll 0 0 /
+    cover;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.on-scroll {
+  background: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+@font-face {
+  font-family: "chalkboy";
+  src: url("assets/font/chalkboy.regular.otf") format("truetype");
+}
+
+.title_img::before {
+  content: url("assets/img/our.png");
+  position: absolute;
+  margin-top: -59px;
+  margin-left: -25px;
+  transform: scale(0.6);
+}
+
+/* our values */
+.values {
+  background: rgba(0, 0, 0, 0) url(assets/img/Mask\ group.svg) repeat scroll 0 0 /
+    cover;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* feedback */
+.feedback {
+  background: rgba(0, 0, 0, 0) url(assets/img/Value\ bg.svg) repeat scroll 0 0 /
+    cover;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .values {
+    background: rgba(0, 0, 0, 0) url(assets/img/Group\ 100.svg) repeat scroll 0
+      0 / cover;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .feedback .card-bg {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .feedback .card-bg.purple {
+    background: rgba(0, 0, 0, 0) url(assets/img/Group\ 1-01.svg) repeat scroll 0
+      0 / cover;
+  }
+  .feedback .card-bg.pink {
+    background: rgba(0, 0, 0, 0) url(assets/img/Group\ 3-01.svg) repeat scroll 0
+      0 / cover;
+  }
+  .feedback .card-bg.orange {
+    background: rgba(0, 0, 0, 0) url(assets/img/Group\ 2-01.svg) repeat scroll 0
+      0 / cover;
+  }
+  .feedback .main-card .card-bg {
+    height: 302px;
+    padding: 40px 20px 30px 70px
+  }
+}
+
+/* page */
+
+/* page-banner */
