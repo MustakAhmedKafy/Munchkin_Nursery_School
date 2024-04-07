@@ -6,6 +6,7 @@ $primary: #0b6a15;
 h1 {
   font-family: "chalkboy";
 }
+
 li {
   list-style: none;
 }
@@ -13,16 +14,26 @@ li {
 h2 {
   font-size: 45px;
   font-weight: 700;
+
   .our {
     color: #eb098b;
   }
 }
+
 .page-h2 {
   color: #eb098b;
 }
+
 .form-control:focus:focus {
   box-shadow: none;
   border: 1px solid #19a650;
+}
+
+.breadcrumb {
+  a {
+    text-decoration: none;
+    color: $primary;
+  }
 }
 
 header {
@@ -112,6 +123,7 @@ header {
       margin: auto;
       padding: 0px;
       flex-direction: row;
+      align-items: center;
 
       &__item {
         background-color: #596376;
@@ -121,8 +133,8 @@ header {
         font-family: sans-serif;
         font-size: 12px;
         font-weight: 100;
-        height: 60px;
-        width: 60px;
+        height: 40px;
+        width: 40px;
         line-height: 45px;
         text-align: center;
         transition: margin 0.1s ease-in-out;
@@ -163,8 +175,9 @@ header {
           margin-right: 10px;
         }
       }
+
       .fa-star {
-        font-size: 20px;
+        font-size: 16px;
         background: -moz-linear-gradient(left, #fcd635 0%, #f7a928 100%);
         background: -webkit-linear-gradient(left, #fcd635 0%, #f7a928 100%);
         background: linear-gradient(to right, #fcd635 0%, #f7a928 100%);
@@ -249,21 +262,27 @@ header {
     font-size: 18px;
     padding-top: 5px;
   }
+
   .value {
     color: #f6932c;
   }
+
   ul {
     padding: 0px;
+
     li {
       display: inline;
       font-size: 25px;
       padding-right: 5px;
+
       &:first-child {
         color: #eb098b;
       }
+
       &:nth-child(2) {
         color: #343391;
       }
+
       &:nth-child(3) {
         color: #39a7de;
       }
@@ -280,24 +299,30 @@ header {
   .feed {
     color: #735aa4;
   }
+
   .main-card {
     position: relative;
+
     .card-bg {
       border-radius: 20px;
       position: relative;
       height: 304px;
+
       .designation-area {
         display: flex;
         align-items: center;
         position: relative;
+
         ul li {
           list-style: none;
           display: inline;
           color: #f2a73b;
         }
+
         .designation-name {
           color: #463f3f;
         }
+
         .designation-name::after {
           content: "";
           position: absolute;
@@ -310,6 +335,7 @@ header {
 
           border-radius: 3px;
         }
+
         .designation-name::before {
           content: "";
           position: absolute;
@@ -321,26 +347,33 @@ header {
           height: 4px;
           border-radius: 3px;
         }
+
         .designation-name.purple::after {
           background-color: #c655a5;
         }
+
         .designation-name.purple::before {
           background-color: #c655a5;
         }
+
         .designation-name.pink::after {
           background-color: #ea5c74;
         }
+
         .designation-name.pink::before {
           background-color: #ea5c74;
         }
+
         .designation-name.orange::after {
           background-color: #f7931e;
         }
+
         .designation-name.orange::before {
           background-color: #f7931e;
         }
       }
     }
+
     .card-circle {
       position: absolute;
       height: 55px;
@@ -353,24 +386,31 @@ header {
       z-index: 100;
       margin-right: 100px;
     }
+
     .card-circle.purple {
       border: 20px solid #c655a5;
     }
+
     .card-circle.pink {
       border: 20px solid #ea5c74;
     }
+
     .card-circle.orange {
       border: 20px solid #f7931e;
     }
+
     .purple .fa-user {
       color: #c655a5;
     }
+
     .pink .fa-user {
       color: #ea5c74;
     }
+
     .orange .fa-user {
       color: #f7931e;
     }
+
     .card-icon {
       background-color: #fff;
       position: absolute;
@@ -380,6 +420,7 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
+
       .fa-user {
         font-size: 30px;
       }
@@ -393,13 +434,16 @@ header {
   .card.blue {
     background-color: #39a7de;
   }
+
   .btn-dark {
     width: 150px;
     background-color: #3a3b3b;
   }
+
   .fa-arrow-right {
     font-size: 13px;
   }
+
   .card.orange {
     background-color: #f6932c;
   }
@@ -407,12 +451,15 @@ header {
   .card.black {
     background-color: #363d58;
   }
+
   .card.pink {
     background-color: #eb098b;
   }
+
   .card.green {
     background-color: #19a650;
   }
+
   .card.violet {
     background-color: #735aa4;
   }
@@ -424,21 +471,26 @@ header {
     font-weight: 700;
     color: 474444;
   }
+
   p {
     font-size: 18px;
+
     span {
       color: #00a8de;
     }
   }
+
   .btn-success {
     background-color: #7986cb;
     border: #7986cb;
     transition: 0.8s;
+
     &:hover {
       background-color: #475ab8;
       transition: 0.8s;
     }
   }
+
   .contact-us {
     background-color: #7986cb;
     color: #fff;
@@ -456,6 +508,7 @@ header {
   span {
     color: #e91388;
   }
+
   button {
     width: 135px;
   }
@@ -466,32 +519,40 @@ header {
 .footer {
   background-color: #000;
   color: #fff;
+
   h3 {
     color: #00a8de;
     font-size: 35px;
   }
+
   p {
     img {
       padding-right: 5px;
       height: 35px;
     }
+
     font-size: 20px;
     padding-bottom: 10px;
   }
+
   a {
     text-decoration: none;
   }
+
   ul {
     padding: 0px;
+
     li {
       list-style: none;
       padding-right: 10px;
       display: inline;
+
       img {
         height: 35px;
       }
     }
   }
+
   .btn-primary {
     background-color: transparent;
     border: 2px solid #fff;
@@ -539,6 +600,7 @@ header {
   button {
     background-color: #eb098b;
     border-color: #eb098b;
+
     &:hover {
       background-color: #c90879;
       border-color: #c90879;
